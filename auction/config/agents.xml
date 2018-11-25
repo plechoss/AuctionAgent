@@ -8,5 +8,8 @@
 		<set class-path="bin/"/>
 		<set class-name="template.AuctionTemplate"/>
 	</agent>
-	
+    <agent name="auction-mine">
+	    <set class-path="bin/"/>
+        <set class-name="agent.AuctionAgent"/>
+    </agent>
 </agents>
